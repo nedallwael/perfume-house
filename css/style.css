@@ -1,0 +1,133 @@
+/* Start Globle Rules */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+body {
+    background-color: #ffffff;
+}
+
+/* End Globle Rules */
+
+/* ================================================================= */
+
+/* Start Header Section */
+
+.header {
+    width: 100%;
+    height: 160px;
+    background-color: #999999;
+    text-align: right;
+    margin-top: 25px;
+    position: relative;
+}
+
+.header::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #d9d9d9;
+    right: 0;
+    top: 40px;
+}
+
+.header .container {
+    width: 65%;
+    margin: auto;    
+}
+
+.header .container .headerContent {
+    height: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.header .container .headerContent h5 {
+    font-size: 15px;
+    font-weight: 100;
+    color: #ffffff;
+    letter-spacing: 1.8px;
+    
+}
+
+.header .container .logo {
+    height: 120px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center
+}
+
+.header .container .logo h2 {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+} 
+
+/* End Header Section */
+
+/* ================================================================= */
+
+/* Start NavigitionBar Section */
+
+.navigitionBar {
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    
+}
+
+.navigitionBar .container {
+    width: 65%;
+    height: 60px;
+    margin: auto;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigitionBar .container .navBar {
+    display: flex;
+    align-items: center;
+    direction: rtl;
+}
+
+.navigitionBar .container .navBar > li > a {
+    color: black;
+    font-weight: 500;
+    margin-left: 55px;
+}
+
+.navigitionBar .container > a {
+    color: black;
+    font-weight: 500;
+}
+
+/* End NavigitionBar Section */
+
+
+.slider {
+    width: 100%;
+    height: 450px;
+    background: #f4f4f4;
+}
+
+.slider .slide {
+   text-align: center;
+   padding: 24px 0;
+    
+}
+
+.slider .slide > img {
+
+}
