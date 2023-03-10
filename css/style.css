@@ -119,6 +119,7 @@ body {
 
 /* Start Slider Section */
 
+<<<<<<< HEAD
 
 .slider-container {
     width: 65%;
@@ -180,6 +181,52 @@ body {
     position: absolute;
     right: 15%;
 }
+=======
+.slider {
+    width: 100%;
+    height: 450px;
+    background: #f4f4f4;
+    overflow: hidden;
+}
+
+.slider .slider-item {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin: 24px auto; 
+}
+
+.slider .slider-item .item {
+    width: 825px;
+    display: none;
+    position: relative;
+   
+}
+    
+.slider .slider-item .item.active {
+    display: block;
+}
+
+.slider .slider-item .item img {
+    width: 825px;
+    height: 402px;
+}
+
+.slider .slider-item .item .caption {
+    position: absolute;
+    color: cyan;
+    border: 1px solid cyan;
+    padding: 15px;
+    left: 50%;
+    bottom: 25px;
+    transform: translate(-50%,-50%);
+    
+    
+}
+
+
+
+>>>>>>> 26a4c679e7933d5ca71f0c9586db3ceed3815357
 
 
 
