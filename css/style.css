@@ -1,0 +1,290 @@
+/* Start Globle Rules */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+body {
+    background-color: #ffffff;
+}
+
+/* End Globle Rules */
+
+/* ================================================================= */
+
+/* Start Header Section */
+
+.header {
+    width: 100%;
+    height: 160px;
+    background-color: #999999;
+    text-align: right;
+    margin-top: 25px;
+    position: relative;
+}
+
+.header::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #d9d9d9;
+    right: 0;
+    top: 40px;
+}
+
+.header .container {
+    width: 65%;
+    margin: auto;    
+}
+
+.header .container .headerContent {
+    height: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.header .container .headerContent h5 {
+    font-size: 15px;
+    font-weight: 100;
+    color: #ffffff;
+    letter-spacing: 1.8px;
+    
+}
+
+.header .container .logo {
+    height: 120px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center
+}
+
+.header .container .logo h2 {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+} 
+
+/* End Header Section */
+
+/* ================================================================= */
+
+/* Start NavigitionBar Section */
+
+.navigitionBar {
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    
+}
+
+.navigitionBar .container {
+    width: 65%;
+    height: 60px;
+    margin: auto;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigitionBar .container .navBar {
+    display: flex;
+    align-items: center;
+    direction: rtl;
+}
+
+.navigitionBar .container .navBar > li > a {
+    color: black;
+    font-weight: 500;
+    margin-left: 55px;
+}
+
+.navigitionBar .container > a {
+    color: black;
+    font-weight: 500;
+}
+
+/* End NavigitionBar Section */
+
+/* ================================================================= */
+
+/* Start Slider Section */
+
+
+.slider-container {
+    width: 65%;
+    height: 450px;
+    margin: auto;
+    position: relative;
+}
+
+.slider-container .slider-number {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 20px;
+    color: #fff;
+    background: rgba(147, 102, 102, 0.6);
+    z-index: 2;
+}
+
+.slider-container img {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s;
+    z-index: 1;
+}
+
+.slider-container img.active {
+    opacity: 1;
+}
+
+.slide-control {
+    width: 825px;
+    margin: auto;
+    position: relative;       
+}
+
+.slide-control .prev,
+.slide-control .next {
+    background: #009688;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 4px;
+    width: 20%;
+    cursor: pointer;
+    user-select: none;
+}
+
+.slide-control .prev {
+    float: left;
+    position: absolute;
+    left: -15%;
+}
+
+.slide-control .next {
+    float: right;
+    position: absolute;
+    right: 15%;
+}
+
+
+
+
+/* End Slider Section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================================= */
+/*
+.slider {
+    width: 100%;
+    height: 450px;
+    background-color: #f4f4f4;
+    
+}
+
+.slider .container {
+    overflow: hidden;
+    width: 825px;
+    height: 450px;
+    margin: auto;
+}
+
+.slider .container .slides {
+    position: relative;    
+    animation: sliding 5s ease-in-out infinite;
+    cursor: pointer;
+    display: flex;
+    
+    
+}
+
+.slider .container .slides:hover {
+    animation-play-state: paused;
+    
+}
+.slider .container .slides img {
+    
+}
+
+
+
+@keyframes sliding {
+    0% {
+        left: 0;
+    }
+    10% {
+        left: -125px;
+    }
+    20% {
+        left: -225px;
+    }
+    30% {
+        left: -325px;
+    }
+    40% {
+        left: -425px;
+    }
+    50% {
+        left: -525px;
+    }
+    60% {
+        left: -625px;
+    }
+    100% {
+        left: -825px;
+    }
+}*/ 
+
+/* ================================================================= */
