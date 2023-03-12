@@ -210,6 +210,11 @@ body {
     right: 26%;
 }
 
+.slider-control .prev.disabled,
+.slider-control .next.disabled {
+  background-color: rgba(0, 150, 136, 0.5);
+  cursor: no-drop;
+}
 
 
 
